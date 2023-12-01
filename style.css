@@ -1,0 +1,51 @@
+
+
+
+
+
+                                                                     /* Login Form CSS Apply */
+
+
+.login_container{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+
+ .login_form{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 30%; 
+ }
+                 
+.login_form input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+
+.login_form input[type="submit"]{
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+                                                                                    /* Header CSS APPly */
+nav a{
+    text-decoration: none;
+    color: salmon;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#user{
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
